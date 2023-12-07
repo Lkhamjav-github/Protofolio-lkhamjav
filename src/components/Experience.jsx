@@ -9,6 +9,8 @@ export const Experience = () => {
                     <h2 className='text-gray-600 text-xl font-normal'>Here is a quick summary of my most recent experiences:</h2>
                 </div>
                 <Row />
+                <Row />
+                <Row />
                 <div>
 
                 </div>
