@@ -14,7 +14,16 @@ module.exports = {
       },
       spacing: {
         '7/10': '70%',
+        '120': '480px',
+        '144': '576px',
+        '2/5': '40%',
+
       }
+    },
+    maxWidth: {
+      'mb': '375px',
+      // => @media (min-width: 640px) { ... }
+
     },
   },
   plugins: [],
