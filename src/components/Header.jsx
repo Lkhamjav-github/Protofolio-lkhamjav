@@ -5,8 +5,8 @@ export const Header = () => {
     }
     return (
         <div>
-            <header className=" bg-white lg:flex justify-center" >
-                <div className='flex lg:px-20 py-4 justify-between items-center self-stretch w-3/4'>
+            <header className=" bg-white flex justify-center" >
+                <div className='flex items-center lg:px-20 py-4 justify-between w-3/4'>
                     <h1 className="lg:text-3xl font-bold leading-9 tracking-wide ">
                         {"<SS />"}
                     </h1>
@@ -20,6 +20,9 @@ export const Header = () => {
                         <button className="lg:rounded-xl bg-gray-900 text-gray-50 text-base font-medium leading-6 py-1 px-4 ">
                             Download CV
                         </button>
+                    </nav>
+                    <nav className='lg:hidden'>
+                        <img src="./menu.svg" alt="" />
                     </nav>
                 </div>
             </header>

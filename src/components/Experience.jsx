@@ -13,7 +13,7 @@ const histories = [
 ]
 export const Experience = () => {
     return (
-        <div className='  bg-gray-50  flex justify-center lg:w-screen m-0 max-w-200 py-24 px-20  '>
+        <div className='  bg-gray-50  px-4 flex justify-center lg:w-screen m-0 max-w-200 py-24 lg:px-20  '>
             <div className='w-3/4 flex flex-col gap-12 items-center'>
                 <div className='flex items-center flex-col'>
                     <Button text="Experience" />

@@ -3,12 +3,12 @@ import React from 'react'
 // document.getElementsByClassName("ul")
 export const Row = (props) => {
     return (
-        <div className='lg:flex lg:gap-12 lg:px-8 lg:py-8 lg:rounded-xl bg-white lg:justify-between lg:w-7/10 mb:flex-col'>
+        <div className='lg:flex lg:gap-12 px-8 py-8 lg:rounded-xl bg-white lg:justify-between w-7/10'>
             <div className='w-54.5'>
                 <img src="./upwork.svg" alt="" />
             </div>
             <div className='lg:w-96 mb:w-72'>
-                <h5 className='text-gray-900 lg:text-xl lg:font-semibold'>{props.title}</h5>
+                <h5 className='text-gray-900 text-xl font-semibold'>{props.title}</h5>
                 <ul className=''>
                     <li className={`text-gray-600 text-base list-${props.disc}`}>{props.li}</li>
                     <li className={`text-gray-600 text-base list-${props.disc1}`}>{props.li1}</li>

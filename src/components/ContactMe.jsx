@@ -3,7 +3,7 @@ import { Button } from './Button'
 export const ContactMe = () => {
     return (
         <div className='bg-white flex lg:flex-col lg:py-24 lg:px-20 '>
-            <div className='flex lg:flex-col lg:items-center '>
+            <div className='flex-col justy-center  lg:items-center '>
                 <div className='lg:flex lg:flex-col lg:items-center'>
                     <Button text="Get in touch" />
                     <h2 className='lg:w-9/12 lg:text-xl lg:font-normal text-gray-600 lg:flex lg:pt-4 lg:pb-12'>What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</h2>

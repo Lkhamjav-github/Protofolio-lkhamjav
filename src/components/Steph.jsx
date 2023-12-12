@@ -2,12 +2,12 @@ import React from 'react'
 
 export const Steph = () => {
     return (
-        <main className="bg-white flex lg:py-24 px-20  justify-center">
-            <div className="lg:flex flex-row-reverse items-start gap-12 px-8 w-3/4 justify-between mb:flex-col ">
-                <img className="  w-72 h-80 shadow-[10px_10px_#e5e7eb]lg:shadow-[30px_30px_#e5e7eb]" src="./chef.jpeg"></img>
+        <main className="bg-white flex lg:py-24 lg:px-20  justify-center">
+            <div className=" flex-col items-center flex w-3/4 lg:flex lg:flex-row-reverse lg:items-start gap-12 lg:px-8  justify-between  ">
+                <img className=" w-60 h-[280px] lg:w-72 lg:h-80 shadow-[10px_10px_#e5e7eb] lg:shadow-[30px_30px_#e5e7eb]" src="./chef.jpeg"></img>
                 <div className="lg:flex max-w-142 flex-col justify-center items-start gap-12 self-stretch">
                     <div className="flex flex-col gap-8">
-                        <h1 className="text-4xl font-semiboldlg:text-6xl font-bold leading-9 tracking-wide ">
+                        <h1 className="text-4xl font-semibold lg:text-6xl lg:font-bold leading-9 tracking-wide ">
                             Hi, I’m Chef 👋
                         </h1>
                         <p className="text-gray-600 text-base font-medium leading-6 max-w-3xl">
@@ -20,7 +20,7 @@ export const Steph = () => {
                     </div>
                     <div className="flex flex-col max-w-142 justify-center items-start gap-12 self-stretch">
                         <div>
-                            <div className="flex p-1 gap-1">
+                            <div className="flex p-1 gap-1 pt-12">
                                 <img src='./icon.svg'></img>
                                 <h5 className="text-gray-600 text-base font-medium leading-6">
                                     Ahmedabad, India
