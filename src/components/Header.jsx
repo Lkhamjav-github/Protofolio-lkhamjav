@@ -5,7 +5,7 @@ export const Header = () => {
     }
     return (
         <div>
-            <header className=" bg-white flex justify-center" >
+            <header className=" bg-white dark:bg-white flex justify-center" >
                 <div className='flex items-center lg:px-20 py-4 justify-between w-3/4'>
                     <h1 className="lg:text-3xl font-bold leading-9 tracking-wide ">
                         {"<SS />"}
@@ -15,9 +15,9 @@ export const Header = () => {
                         <a>Work</a>
                         <a>Testimonials</a>
                         <a>Contact</a>
-                        <img onClick={Sun()} src='./sun.svg' className=''></img>
-                        <img src="./moon.svg" alt="" className='hidden' />
-                        <button className="lg:rounded-xl bg-gray-900 text-gray-50 text-base font-medium leading-6 py-1 px-4 ">
+                        <img onClick={Sun()} src='./sun.svg' className='sun'></img>
+                        <img src="./moon.svg" alt="" className='moon hidden' />
+                        <button className="lg:rounded-xl bg-gray-900  text-gray-50 text-base font-medium leading-6 py-1 px-4 ">
                             Download CV
                         </button>
                     </nav>

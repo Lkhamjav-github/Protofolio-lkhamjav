@@ -2,13 +2,13 @@ import React from 'react'
 import { Button } from './Button'
 export const WorkRow = (props) => {
     return (
-        <div className={`flex-col lg:flex ${props.row}  rounded-xl `}>
-            <div className={`bg-gray-100 w-80 lg:px-12 py-12  rounded-${props.xl}-xl `}>
+        <div className={`flex flex-col lg:${props.row} rounded-xl shadow-lg `}>
+            <div className={`bg-gray-100 dark:bg-black  w-80 px-12 py-12  rounded-xl `}>
                 <img className='w-72 h-48 lg:h-96 lg:w-120 ' src="./firstskill.png" alt="" />
             </div>
-            <div className='lg:flex flex-col lg:px-12 pt-12 pb-24 gap-6' >
-                <h1 className='text-gray-900 text-xl font-semibold'>Fiskil</h1>
-                <p className=' w-80 lg:font-normal text-base text-gray-600 lg:w-120'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+            <div className='lg:flex flex-col px-8 py-8 lg:px-12 lg:pt-12 pb-24 gap-6' >
+                <h1 className='text-gray-900 dark:text-white text-xl font-semibold'>Fiskil</h1>
+                <p className=' w-80 lg:font-normal text-base text-gray-600 dark:text-white lg:w-120'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
                 <div className='w-72 lg:w-120 flex felx-col gap-2 flex-wrap '>
                     <Button text='React' />
                     <Button text='Next.js' />

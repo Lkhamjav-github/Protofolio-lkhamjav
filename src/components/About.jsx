@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from './Button';
 export const About = () => {
     return (
-        <div className=" m-0 flex justify-center  items-start bg-gray-50 w-screen  lg:max-w-200 py-8 px-4 lg:py-24 lg:px-20 ">
+        <div className=" m-0 flex justify-center  items-start bg-gray-50 dark:bg-black w-screen  lg:max-w-200 py-8 px-4 lg:py-24 lg:px-20 ">
             <container className=" flex lg:px-8 flex-col items-center gap-12 w-3/4">
                 <Button text="About me" />
                 <div className=" flex-col lg:gap-12 flex lg:flex-row">
@@ -16,7 +16,7 @@ export const About = () => {
                         >
                             Curious about me? Here you have it:
                         </h1>
-                        <div className="text-base font-normal leading-6 text-gray-600 flex flex-col gap-[16px]  ">
+                        <div className="text-base font-normal leading-6 text-gray-600 dark:text-white flex flex-col gap-[16px]  ">
                             <p>
                                 I'm a passionate, self-proclaimed designer who specializes in
                                 full stack development (React.js & Node.js). I am very

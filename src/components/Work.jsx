@@ -9,9 +9,9 @@ export const Work = () => {
                     <Button text="Work" />
                     <h2 className='text-gray-600 lg:text-xl font-normal pt-4'>Some of the noteworthy projects I have built:</h2>
                 </div>
-                <WorkRow xl="l" />
+                <WorkRow row="flex-row" xl="l" />
                 <WorkRow row="flex-row-reverse" xl="r" />
-                <WorkRow xl="l" />
+                <WorkRow row="flex-row" xl="l" />
             </div>
         </div>
     )

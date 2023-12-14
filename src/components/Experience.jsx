@@ -13,11 +13,11 @@ const histories = [
 ]
 export const Experience = () => {
     return (
-        <div className='  bg-gray-50  px-4 flex justify-center lg:w-screen m-0 max-w-200 py-24 lg:px-20  '>
+        <div className='bg-gray-50 dark:bg-black px-4 flex justify-center lg:w-screen m-0 max-w-200 py-24 lg:px-20  '>
             <div className='w-3/4 flex flex-col gap-12 items-center'>
                 <div className='flex items-center flex-col'>
                     <Button text="Experience" />
-                    <h2 className='text-gray-600 text-xl font-normal pt-4'>Here is a quick summary of my most recent experiences:</h2>
+                    <h2 className='text-gray-600 dark:text-white text-xl font-normal pt-4'>Here is a quick summary of my most recent experiences:</h2>
                 </div>
                 <Row title="Sr. Frontend Developer" p="Nov 2021 - Present" li="Lorem ipsum dolor sit amet, consectetur adipiscing elit." li1="Ut pretium arcu et massa semper, id fringilla leo semper." li2="Sed quis justo ac magna." li3="Lorem ipsum dolor sit amet, consectetur adipiscing elit." disc="disc" disc1="disc" disc2="disc" disc3="disc" />
                 <Row title="Team Lead" p="Jul 2017 - Oct 2021" li="Sed quis justo ac magna." li1="Lorem ipsum dolor sit amet, consectetur adipiscing elit." li2="Sed quis justo ac magna." li3="Lorem ipsum dolor sit amet, consectetur adipiscing elit." disc="disc" disc1="disc" disc2="disc" disc3="disc" />

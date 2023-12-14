@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Steph = () => {
     return (
-        <main className="bg-white flex lg:py-24 lg:px-20  justify-center">
+        <main className="bg-white dark:bg-black flex lg:py-24 lg:px-20  justify-center">
             <div className=" flex-col items-center flex w-3/4 lg:flex lg:flex-row-reverse lg:items-start gap-12 lg:px-8  justify-between  ">
                 <img className=" w-60 h-[280px] lg:w-72 lg:h-80 shadow-[10px_10px_#e5e7eb] lg:shadow-[30px_30px_#e5e7eb]" src="./chef.jpeg"></img>
                 <div className="lg:flex max-w-142 flex-col justify-center items-start gap-12 self-stretch">
@@ -22,7 +22,7 @@ export const Steph = () => {
                         <div>
                             <div className="flex p-1 gap-1 pt-12">
                                 <img src='./icon.svg'></img>
-                                <h5 className="text-gray-600 text-base font-medium leading-6">
+                                <h5 className="text-gray-600 dark:text-gray-50 text-base font-medium leading-6">
                                     Ahmedabad, India
                                 </h5>
                             </div>

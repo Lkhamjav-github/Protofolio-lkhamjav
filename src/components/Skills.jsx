@@ -3,11 +3,11 @@ import { Skill } from './Skill'
 import { Button } from './Button'
 export const Skills = () => {
     return (
-        <div className=' bg-white lg:w-screen m-0 max-w-200 py-24 lg:px-20 flex justify-center items-start'>
+        <div className=' bg-white dark:bg-black lg:w-screen m-0 max-w-200 py-24 lg:px-20 flex justify-center items-start'>
             <div className='flex px-4 lg:px-8 flex-col gap-12 w-3/4'>
                 <div className='flex items-center flex-col'>
                     <Button text="Skills" />
-                    <h2 className='text-gray-600 text-xl font-normal pt-4'>The skills, tools and technologies I am really good at:</h2>
+                    <h2 className='text-gray-600 dark:text-white text-xl font-normal pt-4'>The skills, tools and technologies I am really good at:</h2>
                 </div>
                 <div className='flex flex-col gap-12'>
                     <div className='flex-wrap flex lg:flex lg:justify-between '>
