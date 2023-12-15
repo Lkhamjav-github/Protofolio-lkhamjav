@@ -26,7 +26,7 @@ export const Steph = () => {
                                     Ahmedabad, India
                                 </h5>
                             </div>
-                            <div className="flex p-1 gap-1">
+                            <div className="flex p-1 gap-1 ">
                                 <img src='./greendot.svg'></img>
                                 <h5 className="text-gray-600 text-base font-medium leading-6">
                                     Available for new projects

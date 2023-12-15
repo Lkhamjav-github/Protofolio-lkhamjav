@@ -9,9 +9,12 @@ import { Work } from '../components/Work'
 import { ContactMe } from '@/components/ContactMe'
 import { Footer } from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
+
 export default function Home() {
+
+
   return (
-    <main>
+    <main id='main'>
       <Header />
       <Steph />
       <About />
