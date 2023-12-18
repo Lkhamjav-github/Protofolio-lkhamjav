@@ -7,7 +7,7 @@ export const About = () => {
                 <Button text="About me" />
                 <div className=" flex-col lg:gap-12 flex lg:flex-row">
                     <img
-                        className="lg:max-w-100 h-[400px] shadow-[-30px_30px_#e5e7eb]"
+                        className="lg:max-w-100 h-[360px] lg:h-[400px] shadow-[-30px_30px_#e5e7eb]"
                         src="./chef1.jpeg"
                     ></img>
                     <div className="flex min-w-111 flex-col gap-12">
