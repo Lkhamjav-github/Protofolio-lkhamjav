@@ -8,6 +8,7 @@ import { Experience } from '../components/Experience'
 import { Work } from '../components/Work'
 import { ContactMe } from '@/components/ContactMe'
 import { Footer } from '@/components/Footer'
+import { Stopwatch } from '@/components/Stopwatch'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
 
   return (
     <main id='main'>
+      <Stopwatch />
       <Header />
       <Steph />
       <About />
