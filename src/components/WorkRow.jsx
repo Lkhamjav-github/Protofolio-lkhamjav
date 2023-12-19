@@ -23,6 +23,7 @@ export const WorkRow = (props) => {
                 </div>
                 <img src="./dsum.svg" alt="" className='w-6 h-6' />
             </div>
+            <div>hi</div>
         </div>
     )
 }
