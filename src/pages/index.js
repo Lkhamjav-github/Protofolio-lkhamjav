@@ -13,10 +13,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
-
   return (
     <main id='main'>
-      <Stopwatch />
+      {/* <Stopwatch /> */}
       <Header />
       <Steph />
       <About />
