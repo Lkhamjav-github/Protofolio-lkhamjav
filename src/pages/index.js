@@ -15,7 +15,14 @@ export default function Home() {
 
   return (
     <main id='main'>
-      {/* <Stopwatch /> */}
+      <Head>
+        <title>protofolio lkhamjav | </title>
+        <meta
+          name="description"
+          content="lkhamjav protofolio."
+          key="desc"
+        />
+      </Head>
       <Header />
       <Steph />
       <About />

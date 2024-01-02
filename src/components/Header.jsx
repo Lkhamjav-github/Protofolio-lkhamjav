@@ -44,7 +44,7 @@ export const Header = () => {
                         </button>
                     </nav>
                     <nav className='lg:hidden'>
-                        <img src="./menu.svg" alt="" />
+                        <a href="/mobile"><img src="./menu.svg" alt="" /></a>
                     </nav>
                 </div>
             </header>
