@@ -8,7 +8,7 @@ export const Steph = () => {
                 <div className="lg:flex max-w-142 flex-col justify-center items-start gap-12 self-stretch">
                     <div className="flex flex-col gap-8">
                         <h1 className="text-4xl font-semibold lg:text-6xl lg:font-bold leading-9 tracking-wide ">
-                            Hi, I’m Chef 👋
+                            Hi, I’m Lkhamjav 👋
                         </h1>
                         <p className="text-gray-600 text-base font-medium leading-6 max-w-3xl">
                             I'm a full stack developer (React.js & Node.js) with a focus
