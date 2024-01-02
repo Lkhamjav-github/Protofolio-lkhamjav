@@ -3,7 +3,7 @@ import React from 'react'
 // document.getElementsByClassName("ul")
 export const Row = (props) => {
     return (
-        <div className='lg:flex lg:gap-12 px-8 py-8 lg:rounded-xl bg-white dark:bg-black lg:justify-between w-7/10'>
+        <div className='lg:flex lg:gap-12 px-8 py-8 lg:rounded-xl bg-white dark:bg-black lg:justify-between w-[343px]lg:w-7/10'>
             <div className='w-54.5'>
                 <img src="./upwork.svg" alt="" />
             </div>

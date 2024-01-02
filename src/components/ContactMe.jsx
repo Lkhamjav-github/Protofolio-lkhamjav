@@ -26,7 +26,7 @@ export const ContactMe = () => {
                     <img src="./twitter.svg" alt="" />
                     <img src="./figma.svg" alt="" />
                 </div>
-                <div>hi hi </div>
+                <div></div>
             </div>
         </div>
     )
