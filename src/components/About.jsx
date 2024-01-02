@@ -45,16 +45,15 @@ export const About = () => {
                                 build in public, or you can follow me on GitHub.
                             </p>
                             <p>Finally, some quick bits about me.</p>
-                            <ul className="text-base  flex gap-3 font-normal leading-6 text-gray-600">
-                                <div>
-                                    <li>B.E. in Computer Engineering</li>
-                                    <li>Full time freelancer</li>
-                                </div>
-                                <div>
-                                    <li>Avid learner</li>
-                                    <li>Avid learner</li>
-                                </div>
+                            <ul className="text-base w-[343px] flex justify-between font-normal leading-6 text-gray-600 list-disc">
+                                <li>B.E. in Computer Engineering</li>
+                                <li>Full time freelancer</li>
                             </ul>
+                            <ul className="text-base w-[343px] flex justify-between font-normal leading-6 text-gray-600 list-disc">
+                                <li>Avid learner</li>
+                                <li>Avid learner hacker</li>
+                            </ul>
+
 
                             <p>
                                 One last thing, I'm available for freelance work, so feel free
