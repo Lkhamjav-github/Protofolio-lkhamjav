@@ -3,9 +3,9 @@ import React from 'react'
 export const Headermobile = () => {
     return (
         <div>
-            <header className=" bg-white dark:bg-white flex justify-center" >
-                <div className='flex items-center lg:px-20 py-4 justify-between w-[90%]'>
-                    <h1 className="lg:text-3xl font-bold leading-9 tracking-wide ">
+            <header className=" bg-white dark:bg-black flex justify-center" >
+                <div className='flex items-center lg:px-20 py-4 justify-between w-3/4'>
+                    <h1 className="lg:text-3xl dark:text-white font-bold leading-9 tracking-wide ">
                         {"<SS />"}
                     </h1>
                     <a href='/' className='lg:hidden'>

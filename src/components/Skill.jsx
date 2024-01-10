@@ -7,8 +7,8 @@ import React from 'react'
 // ]
 export const Skill = (props) => {
     return (
-        <div className='flex flex-col justify-center items-center'>
-            <img src={props.icon} alt="" />
+        <div className='flex flex-col justify-center items-center dark:text-[white]'>
+            <img className='dark:bg-[white]' src={props.icon} alt="" />
             <h3 className='font-normal text-grey-600 text-lg'>{props.title}</h3>
         </div>
     )

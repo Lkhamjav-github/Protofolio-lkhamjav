@@ -2,17 +2,17 @@ import React from 'react'
 import { Button } from './Button';
 export const About = () => {
     return (
-        <div className=" m-0 flex justify-center  items-start bg-gray-50 dark:bg-black w-screen  lg:max-w-200 py-8 px-4 lg:py-24 lg:px-20 ">
+        <div className=" m-0 flex justify-center  items-start bg-gray-50 dark:bg-[#111827] w-screen  lg:max-w-200 py-8 px-4 lg:py-24 lg:px-20 ">
             <container className=" flex lg:px-8 flex-col items-center gap-12 w-3/4">
                 <Button text="About me" />
-                <div className=" flex-col lg:gap-12 flex lg:flex-row">
+                <div className=" flex-col lg:gap-12 flex lg:flex-row items-center">
                     <img
-                        className="lg:max-w-100 h-[360px] lg:h-[400px] shadow-[-30px_30px_#e5e7eb]"
+                        className="lg:min-w-[400px] h-[360px] lg:h-[400px]  w-80 p-2 dark:shadow-[0px_10px_0px_10px_#374151]  shadow-[0px_10px_0px_10px_#e5e7eb] lg:shadow-[-30px_30px_#e5e7eb] dark:first-line:lg:shadow-[-30px_30px_#374151]"
                         src="./chef1.jpeg"
                     ></img>
                     <div className="flex min-w-111 flex-col gap-12">
                         <h1
-                            className="text-3xl font-semibold leading-9 text-gray-900"
+                            className="text-3xl font-semibold leading-9 text-gray-900 dark:text-[#F9FAFB] pt-12"
                         >
                             Curious about me? Here you have it:
                         </h1>
@@ -45,11 +45,11 @@ export const About = () => {
                                 build in public, or you can follow me on GitHub.
                             </p>
                             <p>Finally, some quick bits about me.</p>
-                            <ul className="text-base w-[343px] flex justify-between font-normal leading-6 text-gray-600 list-disc">
+                            <ul className="text-base w-[343px] flex justify-between font-normal leading-6 text-gray-600 dark:text-[#F9FAFB] list-disc">
                                 <li>B.E. in Computer Engineering</li>
                                 <li>Full time freelancer</li>
                             </ul>
-                            <ul className="text-base w-[343px] flex justify-between font-normal leading-6 text-gray-600 list-disc">
+                            <ul className="text-base w-[343px] flex justify-between font-normal leading-6 text-gray-600 dark:text-[#F9FAFB] list-disc">
                                 <li>Avid learner</li>
                                 <li>Avid learner hacker</li>
                             </ul>
