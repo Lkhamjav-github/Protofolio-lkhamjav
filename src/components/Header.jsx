@@ -43,7 +43,7 @@ export const Header = () => {
                     <nav className='lg:hidden'>
                         <img onClick={toggleBurger} src={`${burger === 'menu' ? './menu.svg' : './xmark.png'}`} alt="" />
                         <div className={`${burger === 'menu' ? 'hidden ' : 'flex'}`}>
-                            <div className='flex items-center justify-center dark:bg-black '>
+                            <div className='flex items-center justify-center  dark:bg-black '>
                                 <hr className='bg-[#e5e7eb] dark:bg-[#374151]' />
                                 <nav className="flex flex-col  gap-6 text-gray-900 dark:text-white text-base font-medium leading-6 w-3/4 ">
                                     <a>About</a>
