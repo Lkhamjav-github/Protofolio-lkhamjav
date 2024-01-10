@@ -9,6 +9,7 @@ import { Work } from '../components/Work'
 import { ContactMe } from '@/components/ContactMe'
 import { Footer } from '@/components/Footer'
 import { Stopwatch } from '@/components/Stopwatch'
+import { Headermobile } from '@/components/Headermobile'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         />
       </Head> */}
       <Header />
+      {/* <Headermobile /> */}
       <Steph />
       <About />
       <Skills />

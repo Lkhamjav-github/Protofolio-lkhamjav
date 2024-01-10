@@ -6,7 +6,7 @@ export default function Mobile() {
     return (
         <main>
             <Headermobile />
-            <Aboutmobile />
+            {/* <Aboutmobile /> */}
         </main>
     )
 }
