@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 
-
 export const Header = () => {
     const [theme, setTheme] = useState('light');
     const toggleTheme = () => {
@@ -42,7 +41,7 @@ export const Header = () => {
                     </nav>
                     <nav className='lg:hidden'>
                         <img onClick={toggleBurger} src={`${burger === 'menu' ? './menu.svg' : './xmark.png'}`} alt="" />
-                        <div className={`${burger === 'menu' ? 'hidden ' : 'flex'}`}>
+                        <div className={`${burger === 'menu' ? 'hidden ' : 'flex'} absolute`}>
                             <div className='flex items-center justify-center  dark:bg-black '>
                                 <hr className='bg-[#e5e7eb] dark:bg-[#374151]' />
                                 <nav className="flex flex-col  gap-6 text-gray-900 dark:text-white text-base font-medium leading-6 w-3/4 ">
@@ -51,7 +50,7 @@ export const Header = () => {
                                     <a>Testimonials</a>
                                     <a>Contact</a>
                                     <div className='flex justify-start items-center'>
-                                        <p>Swith Theme</p>
+                                        <p>Switch Theme</p>
                                         <div>
                                             <img onClick={toggleTheme} src={`${theme === 'light' ? './sun.svg' : './moon.svg'}`} className='sun ' id='sun'></img>
                                             <img src="./moon.svg" alt="" className='moon hidden' />
