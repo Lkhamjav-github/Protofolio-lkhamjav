@@ -10,12 +10,14 @@ import { ContactMe } from '@/components/ContactMe'
 import { Footer } from '@/components/Footer'
 // import { Stopwatch } from '@/components/Stopwatch'
 // import { Headermobile } from '@/components/Headermobile'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
   return (
     <main id='main'>
+
       {/* <Head>
         <title>protofolio lkhamjav | </title>
         <meta
