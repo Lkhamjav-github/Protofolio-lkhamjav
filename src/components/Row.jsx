@@ -5,7 +5,7 @@ export const Row = (props) => {
     return (
         <div className='lg:flex lg:gap-12 px-8 py-8 rounded-xl bg-white dark:bg-[#1F2937] lg:justify-between w-[343px]lg:w-7/10'>
             <div className='w-54.5'>
-                <img src="./upwork.svg" alt="" />
+                <img src="./upwork.svg" alt="upwork" />
             </div>
             <div className='lg:w-96 mb:w-72'>
                 <h5 className='text-gray-900 dark:text-white text-xl font-semibold pb-4'>{props.title}</h5>

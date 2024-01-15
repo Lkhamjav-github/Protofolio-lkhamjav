@@ -4,7 +4,7 @@ export const Steph = () => {
     return (
         <main className="bg-white dark:bg-black flex lg:py-24 lg:px-20  justify-center">
             <div className=" flex-col items-center flex w-3/4 lg:flex lg:flex-row-reverse lg:items-start gap-12 lg:px-8  justify-between  ">
-                <img className=" w-60 h-[280px] lg:w-72 lg:h-80 p-2 shadow-[0px_10px_0px_10px_#e5e7eb] dark:shadow-[0px_10px_0px_10px_#374151] dark:lg:shadow-[30px_30px_#374151] p-2` lg:shadow-[30px_30px_#e5e7eb]" src="./chef.jpeg"></img>
+                <img className=" w-60 h-[280px] lg:w-72 lg:h-80 p-2 shadow-[0px_10px_0px_10px_#e5e7eb] dark:shadow-[0px_10px_0px_10px_#374151] dark:lg:shadow-[30px_30px_#374151] p-2` lg:shadow-[30px_30px_#e5e7eb]" src="./chef.jpeg" alt='chefimg' ></img>
                 <div className="lg:flex max-w-142 flex-col justify-center items-start gap-12 self-stretch">
                     <div className="flex flex-col gap-8">
                         <h1 className="text-4xl font-semibold dark:text-[#F9FAFB]  lg:text-6xl lg:font-bold leading-9 tracking-wide ">
@@ -30,16 +30,16 @@ export const Steph = () => {
                                 </h5>
                             </div>
                             <div className="flex p-1 gap-1 ">
-                                <img src='./greendot.svg'></img>
+                                <img alt='stephen curry' src='./greendot.svg'></img>
                                 <h5 className="text-gray-600 dark:text-[#D1D5DB] text-base font-medium leading-6">
                                     Available for new projects
                                 </h5>
                             </div>
                         </div>
                         <div className="flex p-1 gap-1 ">
-                            <img src='./github.svg'></img>
-                            <img src='./twitter.svg'></img>
-                            <img src='./figma.svg'></img>
+                            <img alt='github' src='./github.svg'></img>
+                            <img alt='twitter' src='./twitter.svg'></img>
+                            <img alt="figma" src='./figma.svg'></img>
                         </div>
                     </div>
                 </div>

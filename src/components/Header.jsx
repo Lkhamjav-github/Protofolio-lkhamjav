@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-
-export const Header = () => {
+import jsPDF from 'jspdf';
+export const Header = ({ onDownloadPdf }) => {
     const [theme, setTheme] = useState('light');
     const toggleTheme = () => {
         if (theme === 'light') {
@@ -31,18 +31,18 @@ export const Header = () => {
                             <div className='flex items-start justify-center  dark:bg-black h-[820px] w-[300px] '>
                                 <hr className='bg-[#e5e7eb] dark:bg-[#374151]' />
                                 <nav className="flex flex-col  gap-6 text-gray-900 dark:text-white text-basefont-medium leading-6 w-3/4 ">
-                                    <a>About</a>
-                                    <a>Work</a>
-                                    <a>Testimonials</a>
-                                    <a>Contact</a>
+                                    <a href='/'>About</a>
+                                    <a href='/'>Work</a>
+                                    <a href='/'>Testimonials</a>
+                                    <a href='/'>Contact</a>
                                     <div className='flex justify-start items-center'>
                                         <p>Switch Theme</p>
                                         <div>
-                                            <img onClick={toggleTheme} src={`${theme === 'light' ? './sun.svg' : './moon.svg'}`} className='sun ' id='sun'></img>
-                                            <img src="./moon.svg" alt="" className='moon hidden' />
+                                            <img onClick={toggleTheme} src={`${theme === 'light' ? './sun.svg' : './moon.svg'}`} className='sun ' id='sun' alt='sun'></img>
+                                            <img src="./moon.svg" alt="moon" className='moon hidden' />
                                         </div>
                                     </div>
-                                    <button className=" max-w-72 rounded-xl bg-gray-900  text-gray-50 text-base font-medium leading-6 py-1 px-4 ">
+                                    <button onClick={onDownloadPdf} className=" max-w-72 rounded-xl bg-gray-900  text-gray-50 text-base font-medium leading-6 py-1 px-4 ">
                                         Download CV
                                     </button>
                                 </nav >
@@ -50,18 +50,18 @@ export const Header = () => {
                         </div>
                     </h1>
                     <nav className="hidden lg:flex content-center items-center  gap-6 text-gray-900 dark:text-white text-base font-medium leading-6 ">
-                        <a>About</a>
-                        <a>Work</a>
-                        <a>Testimonials</a>
-                        <a>Contact</a>
-                        <img onClick={toggleTheme} src={`${theme === 'light' ? './sun.svg' : './moon.svg'}`} className='sun' id='sun'></img>
-                        <img src="./moon.svg" alt="" className='moon hidden' />
-                        <button className="lg:rounded-xl bg-gray-900  text-gray-50 dark:bg-[#F9FAFB] dark:text-[#111827] text-base font-medium leading-6 py-1 px-4 ">
+                        <a href='/'>About</a>
+                        <a href='/'>Work</a>
+                        <a href='/'>Testimonials</a>
+                        <a href='/'>Contact</a>
+                        <img onClick={toggleTheme} src={`${theme === 'light' ? './sun.svg' : './moon.svg'}`} alt='sun' className='sun' id='sun'></img>
+                        <img src="./moon.svg" alt="moon" className='moon hidden' />
+                        <button onClick={onDownloadPdf} className="lg:rounded-xl bg-gray-900  text-gray-50 dark:bg-[#F9FAFB] dark:text-[#111827] text-base font-medium leading-6 py-1 px-4 ">
                             Download CV
                         </button>
                     </nav>
                     <nav className='lg:hidden '>
-                        <img onClick={toggleBurger} src={`${burger === 'menu' ? './menu.svg' : './xmark.png'}`} alt="" />
+                        <img onClick={toggleBurger} src={`${burger === 'menu' ? './menu.svg' : './xmark.png'}`} alt="sunmoon" />
                     </nav>
 
                 </div>

@@ -9,6 +9,7 @@ export const About = () => {
                     <img
                         className="lg:min-w-[400px] h-[360px] lg:h-[400px]  w-80 p-2 dark:shadow-[0px_10px_0px_10px_#374151]  shadow-[0px_10px_0px_10px_#e5e7eb] lg:shadow-[-30px_30px_#e5e7eb] dark:first-line:lg:shadow-[-30px_30px_#374151]"
                         src="./chef1.jpeg"
+                        alt='steph'
                     ></img>
                     <div className="flex min-w-111 flex-col gap-12">
                         <h1

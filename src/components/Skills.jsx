@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Skill } from './Skill'
 import { Button } from './Button'
 export const Skills = () => {
@@ -10,7 +10,7 @@ export const Skills = () => {
                     <h2 className='text-gray-600 dark:text-white text-xl font-normal pt-4'>The skills, tools and technologies I am really good at:</h2>
                 </div>
                 <div className='flex flex-col gap-12'>
-                    <div className='flex-wrap flex lg:flex lg:justify-between '>
+                    <div className='flex-wrap flex lg:flex lg:gap-[86.87px] lg:justify-between'>
                         <Skill title="Javascript" icon="../icon-javscript.svg" />
                         <Skill title="Typescript" icon="../icon-typescript.svg" />
                         <Skill title="React" icon="../icon-react.svg" />
@@ -19,8 +19,6 @@ export const Skills = () => {
                         <Skill title="Express.js" icon="../icon-express.svg" />
                         <Skill title="Nest.js" icon="../icon-nest.svg" />
                         <Skill title="Socket.io" icon="../icon-socket.svg" />
-                    </div>
-                    <div className='flex-wrap flex lg:flex lg:justify-between '>
                         <Skill title="PostgreSQL" icon="../icon-postgresql.svg" />
                         <Skill title="MongoDB" icon="../icon-mongodb.svg" />
                         <Skill title="Sass/Scss" icon="../icon-sass.svg" />
