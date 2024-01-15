@@ -37,10 +37,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>protofolio lkhamjav | </title>
+        <title>protofolio lkhamjav | lkhamjav</title>
         <meta
           name="description"
-          content="lkhamjav protofolio."
+          content="lkhamjav"
           key="desc"
         />
       </Head>
