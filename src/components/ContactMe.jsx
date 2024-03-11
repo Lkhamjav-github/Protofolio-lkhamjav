@@ -10,12 +10,12 @@ export const ContactMe = () => {
                 </div>
                 <div className='flex items-center gap-5 '>
                     <img src="./message.svg" alt="icon" />
-                    <h1 className='text-lg text-gray-900 dark:text-white lg:text-4xl lg:font-semibold '>StephenCurry30@gmail.com</h1>
+                    <h1 className='text-lg text-gray-900 dark:text-white lg:text-4xl lg:font-semibold '>the.lkhamjav@gmail.com</h1>
                     <img src="./2conh.png" alt="icon" />
                 </div>
                 <div className='flex items-center gap-4 lg:gap-5  lg:pt-4 lg:pb-12'>
                     <img src="./phone.svg" alt="icon" />
-                    <h1 className=' text-lg text-gray-900 dark:text-white lg:text-4xl lg:font-semibold '>+976 99303030</h1>
+                    <h1 className=' text-lg text-gray-900 dark:text-white lg:text-4xl lg:font-semibold '>+976 88766764</h1>
                     <img src="./2conh.png" alt="icon" />
                 </div>
                 <p className='lg:pb-2 lg:font-normal text-gray-600 dark:text-white lg:text-base'>
