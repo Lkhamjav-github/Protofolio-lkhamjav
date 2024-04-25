@@ -9,9 +9,9 @@ export const Work = () => {
                     <Button text="Work" />
                     <h2 className='text-gray-600 dark:text-[#D1D5DB] lg:text-xl font-normal pt-4'>Some of the noteworthy projects I have built:</h2>
                 </div>
-                <WorkRow row="flex-row" xl="l" />
-                <WorkRow row="flex-row-reverse" xl="r" />
-                <WorkRow row="flex-row" xl="l" />
+                <WorkRow row="flex-row" xl="l" img="./travel.png" projectName="Travel To Mongolia" url="https://travelcon-eta.vercel.app" />
+                <WorkRow row="flex-row-reverse" xl="r" img="./blogweb.png" projectName="Travel To Mongolia" />
+                <WorkRow row="flex-row" xl="l" img="./firstskill.png" projectName="Travel To Mongolia" />
             </div>
         </div>
     )
