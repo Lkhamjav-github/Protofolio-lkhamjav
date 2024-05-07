@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from './Button';
 export const About = () => {
     return (
-        <div className=" m-0 flex justify-center  items-start bg-gray-50 dark:bg-[#111827] w-screen  lg:max-w-200 py-8 px-4 lg:py-24 lg:px-20 ">
+        <div id='about' className=" m-0 flex justify-center  items-start bg-gray-50 dark:bg-[#111827] w-screen  lg:max-w-200 py-8 px-4 lg:py-24 lg:px-20 ">
             <container className=" flex lg:px-8 flex-col items-center gap-12 w-3/4">
                 <Button text="About me" />
                 <div className=" flex-col lg:gap-12 flex lg:flex-row items-center">

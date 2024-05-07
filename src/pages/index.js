@@ -12,6 +12,7 @@ import { useRef } from 'react'
 import Head from 'next/head'
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
+
 // import { Stopwatch } from '@/components/Stopwatch'
 // import { Headermobile } from '@/components/Headermobile'
 
@@ -47,7 +48,7 @@ export default function Home() {
       <Header onDownloadPdf={downloadPdf} />
       {/* <Headermobile /> */}
       <Steph />
-      <About />
+      <About id='about' />
       <Skills />
       <Experience />
       <Work />
