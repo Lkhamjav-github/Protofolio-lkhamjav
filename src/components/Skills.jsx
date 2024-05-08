@@ -16,16 +16,16 @@ export const Skills = () => {
                         <Skill title="React" icon="../icon-react.svg" />
                         <Skill title="Next.js" icon="../icon-nextjs.svg" />
                         <Skill title="Node.js" icon="../icon-nodejs.svg" />
-                        <Skill title="Express.js" icon="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png" />
-                        {/* <Skill title="Nest.js" icon="../icon-nest.svg" /> */}
-                        {/* <Skill title="Socket.io" icon="../icon-socket.svg" /> */}
-                        {/* <Skill title="PostgreSQL" icon="../icon-postgresql.svg" /> */}
+                        <Skill title="Express.js" icon="../icon-express.svg" />
+                        <Skill title="Nest.js" icon="../icon-nest.svg" />
+                        <Skill title="Socket.io" icon="../icon-socket.svg" />
+                        <Skill title="PostgreSQL" icon="../icon-postgresql.svg" />
                         <Skill title="MongoDB" icon="../icon-mongodb.svg" />
-                        {/* <Skill title="Sass/Scss" icon="../icon-sass.svg" /> */}
+                        <Skill title="Sass/Scss" icon="../icon-sass.svg" />
                         <Skill title="Tailwindcss" icon="../icon-tailwindcss.svg" />
                         <Skill title="Figma" icon="../icon-figma.svg" />
                         <Skill title="Cypress" icon="../icon-cypress.svg" />
-                        <Skill title="Jest " icon="https://www.remoterocketship.com/images/blog/Jest-icon-for-blog.jpg" />
+                        <Skill title="Storybook" icon="../icon-storybook.svg" />
                         <Skill title="Git" icon="../icon-git.svg" />
                     </div>
                 </div>

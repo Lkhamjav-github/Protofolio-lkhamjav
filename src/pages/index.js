@@ -12,8 +12,7 @@ import { useRef } from 'react'
 import Head from 'next/head'
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
-
-// import { Stopwatch } from '@/components/Stopwatch'
+import StyledStarsCanvas from '@/components/Stars'
 // import { Headermobile } from '@/components/Headermobile'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -47,13 +46,16 @@ export default function Home() {
       </Head>
       <Header onDownloadPdf={downloadPdf} />
       {/* <Headermobile /> */}
-      <Steph />
-      <About id='about' />
-      <Skills />
-      <Experience />
-      <Work />
-      <ContactMe />
-      <Footer />
+      <div className='relative'>
+        <StyledStarsCanvas />
+        <Steph />
+        <About />
+        <Skills />
+        <Experience />
+        <Work />
+        <ContactMe />
+        <Footer />
+      </div>
     </>
   )
 }

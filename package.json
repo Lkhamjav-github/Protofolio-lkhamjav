@@ -9,14 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.4",
     "add": "^2.0.6",
     "html2canvas-proxy": "^1.0.1",
     "jspdf": "^2.5.1",
     "next": "14.0.3",
     "or": "^0.2.0",
     "react": "^18.2.0",
-    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18",
+    "styled-components": "^6.1.10",
     "yarn": "^1.22.22"
   },
   "devDependencies": {

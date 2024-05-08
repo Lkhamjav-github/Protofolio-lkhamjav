@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import jsPDF from 'jspdf';
-import Link from 'next/link';
+
 export const Header = ({ onDownloadPdf }) => {
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('dark');
     const toggleTheme = () => {
-        if (theme === 'light') {
-            setTheme('dark');
-        } else {
+        if (theme === 'dark') {
             setTheme('light');
+        } else {
+            setTheme('dark');
         }
     };
     useEffect(() => {
@@ -32,7 +31,7 @@ export const Header = ({ onDownloadPdf }) => {
                             <div className='flex items-start justify-center  dark:bg-black h-[820px] w-[300px] '>
                                 <hr className='bg-[#e5e7eb] dark:bg-[#374151]' />
                                 <nav className="flex flex-col  gap-6 text-gray-900 dark:text-white text-basefont-medium leading-6 w-3/4 ">
-                                    <Link href='about' onClick={() => this.scrollToSection(about)}>About</Link>
+                                    <a href='/'>About</a>
                                     <a href='/'>Work</a>
                                     <a href='/'>Testimonials</a>
                                     <a href='/'>Contact</a>
@@ -51,7 +50,7 @@ export const Header = ({ onDownloadPdf }) => {
                         </div>
                     </h1>
                     <nav className="hidden lg:flex content-center items-center  gap-6 text-gray-900 dark:text-white text-base font-medium leading-6 ">
-                        <Link href='/' onClick={() => this.scrollToSection(about)}>About</Link>
+                        <a href='/'>About</a>
                         <a href='/'>Work</a>
                         <a href='/'>Testimonials</a>
                         <a href='/'>Contact</a>
