@@ -4,7 +4,7 @@ export const About = () => {
     return (
         <div className=" m-0 flex justify-center  items-start bg-gray-50 dark:bg-[#111827] w-screen  lg:max-w-200 py-8 px-4 lg:py-24 lg:px-20 ">
             <container className=" flex lg:px-8 flex-col items-center gap-12 w-3/4">
-                <Button text="About me" />
+                <Button text="Миний тухай" />
                 <div className=" flex-col lg:gap-12 flex lg:flex-row items-center">
                     <img
                         className="lg:min-w-[400px] h-[360px] lg:h-[400px]  w-80 p-2 dark:shadow-[0px_10px_0px_10px_#374151]  shadow-[0px_10px_0px_10px_#e5e7eb] lg:shadow-[-30px_30px_#e5e7eb] dark:first-line:lg:shadow-[-30px_30px_#374151]"

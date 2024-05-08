@@ -32,7 +32,10 @@ export const ContactMe = () => {
                     <img className='w-4 h-4 lg:w-8 lg:h-8' src="./message.svg" alt="icon" />
                     <h1 className='text-lg text-gray-900 dark:text-white lg:text-4xl lg:font-semibold '>the.lkhamjav@gmail.com</h1>
                     <div className="tooltip" data-tip={`${copy ? 'copied' : 'copy'}`}>
-                        <svg onClick={handleCopy} className='w-4 h-4 lg:w-8 lg:h-8' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64 464H288c8.8 0 16-7.2 16-16V384h48v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64h64v48H64c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16zM224 304H448c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H224c-8.8 0-16 7.2-16 16V288c0 8.8 7.2 16 16 16zm-64-16V64c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V288c0 35.3-28.7 64-64 64H224c-35.3 0-64-28.7-64-64z" /></svg>
+                        <svg onClick={handleCopy} width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.6665 16.6665H19.3332C17.8604 16.6665 16.6665 17.8604 16.6665 19.3332V32.6665C16.6665 34.1393 17.8604 35.3332 19.3332 35.3332H32.6665C34.1393 35.3332 35.3332 34.1393 35.3332 32.6665V19.3332C35.3332 17.8604 34.1393 16.6665 32.6665 16.6665Z" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M11.3332 27.3332C9.8665 27.3332 8.6665 26.1332 8.6665 24.6665V11.3332C8.6665 9.8665 9.8665 8.6665 11.3332 8.6665H24.6665C26.1332 8.6665 27.3332 9.8665 27.3332 11.3332" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
                     </div>
 
                 </div>
@@ -40,7 +43,10 @@ export const ContactMe = () => {
                     <img className=' w-4 h-4 lg:w-8 lg:h-8' src="./phone.svg" alt="icon" />
                     <h1 className=' text-lg text-gray-900 dark:text-white lg:text-4xl lg:font-semibold '>+976 88766764</h1>
                     <div className="tooltip" data-tip={`${scopy ? 'copied' : 'copy'}`}>
-                        <svg onClick={secondhandleCopy} className='w-4 h-4 lg:w-8 lg:h-8' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64 464H288c8.8 0 16-7.2 16-16V384h48v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64h64v48H64c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16zM224 304H448c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H224c-8.8 0-16 7.2-16 16V288c0 8.8 7.2 16 16 16zm-64-16V64c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V288c0 35.3-28.7 64-64 64H224c-35.3 0-64-28.7-64-64z" /></svg>
+                        <svg onClick={secondhandleCopy} width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.6665 16.6665H19.3332C17.8604 16.6665 16.6665 17.8604 16.6665 19.3332V32.6665C16.6665 34.1393 17.8604 35.3332 19.3332 35.3332H32.6665C34.1393 35.3332 35.3332 34.1393 35.3332 32.6665V19.3332C35.3332 17.8604 34.1393 16.6665 32.6665 16.6665Z" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M11.3332 27.3332C9.8665 27.3332 8.6665 26.1332 8.6665 24.6665V11.3332C8.6665 9.8665 9.8665 8.6665 11.3332 8.6665H24.6665C26.1332 8.6665 27.3332 9.8665 27.3332 11.3332" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
                     </div>
 
                 </div>

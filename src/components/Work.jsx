@@ -9,9 +9,9 @@ export const Work = () => {
                     <Button text="Ажилууд" />
                     <h2 className='text-gray-600 dark:text-[#D1D5DB] lg:text-xl font-normal pt-4'>Миний бүтээлцсэн зарим онцлох төслүүд:</h2>
                 </div>
-                <WorkRow inner='Энэхүү төсөл нь Монгол орныг гадаадын иргэдэд суртчилах зорилготой бөгөөд миний бие энэхүү төслийн хүрээнд    бие даан гүйцэтгэсэн.' row="flex-row" xl="l" top='rounded-l-xl' bottom='rounded-r-xl' img="./travel.png" projectName="Travel To Mongolia" url="https://travelcon-eta.vercel.app" />
-                <WorkRow inner='sadfasdf' row="flex-row-reverse" top='rounded-r-xl' bottom='rounded-l-xl' xl="r" img="./blogweb.png" projectName="BlogWeb" url="https://blogweb-eight.vercel.app/" />
-                <WorkRow inner='sdfsadfas' row="flex-row" xl="l" top='rounded-l-xl' bottom='rounded-r-xl' img="./buyme.png" projectName="E-commerce" url='https://buymeuserfe.vercel.app/signin ' />
+                <WorkRow inner='Монгол орныг гадаад иргэдэд суртчилах зорилготой , аялал сонгодог , Маршрут сонголттой , ангилалтай аялагчдад зориулсан платформ' row="flex-row" xl="l" top='rounded-l-xl' bottom='rounded-r-xl' img="./travel.png" projectName="Travel To Mongolia" url="https://travelcon-eta.vercel.app" />
+                <WorkRow inner='Зөв зохион байгуулалт, хэрэглэгчдэд эмх цэгцтэй харагдуулж өгсөнөөр  уншигчдад янз бүрийн сэдвээр холбогдох мэдээний нийтлэл, шинэчлэлтийг хялбархан үзэх боломжийг олгохыг зорьсон' row="flex-row-reverse" top='rounded-r-xl' bottom='rounded-l-xl' xl="r" img="./blogweb.png" projectName="BlogWeb" url="https://blogweb-eight.vercel.app/" />
+                <WorkRow inner='Ямарч хэрэглэгч ашиглах боломжтой энгийн загвартай , Хувиараа бизнес эрхлэгч Өөрийн худалдаа веб хуудасгүй дэлгүүрүүд ашиглан өөрийн бараа бүтээгдхүүнээ зарах боломжтой . Худалдааны платформ' row="flex-row" xl="l" top='rounded-l-xl' bottom='rounded-r-xl' img="./buyme.png" projectName="E-commerce" url='https://buymeuserfe.vercel.app/signin ' />
             </div>
         </div>
     )

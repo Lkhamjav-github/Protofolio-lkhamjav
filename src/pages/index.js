@@ -50,10 +50,10 @@ export default function Home() {
       <div className='relative'>
         <Arrow />
         <Steph />
-        <About />
+        {/* <About /> */}
         <Arrow />
         <Skills />
-        <Experience />
+        {/* <Experience /> */}
         <Arrow />
         <Work />
         <StyledStarsCanvas />

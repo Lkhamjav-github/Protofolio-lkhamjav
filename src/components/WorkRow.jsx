@@ -22,7 +22,7 @@ export const WorkRow = (props) => {
                     </div>
                     <div className='flex gap-8'>
                         <img src="./dsum.svg" alt="" className='w-6 h-6' />
-                        <a href={`${props.url}`} target='blank' className='text-black dark:text-white'>{props.url}</a>
+                        <a href={`${props.url}`} target='blank' className='text-black dark:text-white z-10'>{props.url}</a>
                     </div>
                 </div>
             </div>
