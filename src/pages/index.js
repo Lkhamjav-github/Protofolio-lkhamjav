@@ -48,13 +48,13 @@ export default function Home() {
       <Header onDownloadPdf={downloadPdf} />
       {/* <Headermobile /> */}
       <div className='relative'>
-        {/* <Arrow /> */}
+        <Arrow />
         <Steph />
         <About />
-        {/* <Arrow /> */}
+        <Arrow />
         <Skills />
         <Experience />
-        {/* <Arrow /> */}
+        <Arrow />
         <Work />
         <StyledStarsCanvas />
         <ContactMe />
