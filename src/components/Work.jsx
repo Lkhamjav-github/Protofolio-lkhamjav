@@ -9,15 +9,9 @@ export const Work = () => {
                     <Button text="Ажилууд" />
                     <h2 className='text-gray-600 dark:text-[#D1D5DB] lg:text-xl font-normal pt-4'>Миний бүтээлцсэн зарим онцлох төслүүд:</h2>
                 </div>
-<<<<<<< HEAD
-                <WorkRow row="flex-row" xl="l" img="./travel.png" projectName="Travel To Mongolia" url="https://travelcon-eta.vercel.app" />
-                <WorkRow row="flex-row-reverse" xl="r" img="./blogweb.png" projectName="Travel To Mongolia" />
-                <WorkRow row="flex-row" xl="l" img="./firstskill.png" projectName="Travel To Mongolia" />
-=======
                 <WorkRow inner='Энэхүү төсөл нь Монгол орныг гадаадын иргэдэд суртчилах зорилготой бөгөөд миний бие энэхүү төслийн хүрээнд    бие даан гүйцэтгэсэн.' row="flex-row" xl="l" top='rounded-l-xl' bottom='rounded-r-xl' img="./travel.png" projectName="Travel To Mongolia" url="https://travelcon-eta.vercel.app" />
                 <WorkRow inner='sadfasdf' row="flex-row-reverse" top='rounded-r-xl' bottom='rounded-l-xl' xl="r" img="./blogweb.png" projectName="BlogWeb" url="https://blogweb-eight.vercel.app/" />
                 <WorkRow inner='sdfsadfas' row="flex-row" xl="l" top='rounded-l-xl' bottom='rounded-r-xl' img="./buyme.png" projectName="E-commerce" url='https://buymeuserfe.vercel.app/signin ' />
->>>>>>> 7acb598f8837c015c5de712a890093c835303c7d
             </div>
         </div>
     )

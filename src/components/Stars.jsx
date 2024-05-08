@@ -1,7 +1,6 @@
 import React, { useRef, useState, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
-import * as random from "maath/random/dist/maath-random.esm";
 import styled from "styled-components";
 
 const StyledCanvasWrapper = styled.div`
@@ -11,10 +10,30 @@ const StyledCanvasWrapper = styled.div`
   inset: 0;
 `;
 
+// Define defaultGen as a function that generates random numbers between 0 and 1
+const defaultGen = () => Math.random();
+
+function inSphere(buffer, sphere, rng = defaultGen) {
+    for (let i = 0; i < buffer.length; i += 3) {
+        const u = Math.pow(rng(), 1 / 3);
+        let x = rng() * 2 - 1;
+        let y = rng() * 2 - 1;
+        let z = rng() * 2 - 1;
+        const mag = Math.sqrt(x * x + y * y + z * z);
+        x = u * x / mag;
+        y = u * y / mag;
+        z = u * z / mag;
+        buffer[i] = x * sphere.radius + sphere.center[0];
+        buffer[i + 1] = y * sphere.radius + sphere.center[1];
+        buffer[i + 2] = z * sphere.radius + sphere.center[2];
+    }
+    return buffer;
+}
+
 const Stars = (props) => {
     const ref = useRef();
     const [sphere] = useState(() =>
-        random.inSphere(new Float32Array(5000), { radius: 1.2 })
+        inSphere(new Float32Array(5000), { radius: 1.2, center: [0, 0, 0] })
     );
 
     useFrame((state, delta) => {
@@ -37,11 +56,7 @@ const Stars = (props) => {
     );
 };
 
-<<<<<<< HEAD
 const StyledStarsCanvas = () => {
-=======
-export const StyledStarsCanvas = () => {
->>>>>>> 7acb598f8837c015c5de712a890093c835303c7d
     return (
         <StyledCanvasWrapper>
             <Canvas camera={{ position: [0, 0, 1] }}>
@@ -54,9 +69,4 @@ export const StyledStarsCanvas = () => {
     );
 };
 
-<<<<<<< HEAD
 export default StyledStarsCanvas;
-=======
-// export default StyledStarsCanvas;
->>>>>>> 7acb598f8837c015c5de712a890093c835303c7d
-
