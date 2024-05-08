@@ -37,7 +37,11 @@ const Stars = (props) => {
     );
 };
 
+<<<<<<< HEAD
 const StyledStarsCanvas = () => {
+=======
+export const StyledStarsCanvas = () => {
+>>>>>>> 7acb598f8837c015c5de712a890093c835303c7d
     return (
         <StyledCanvasWrapper>
             <Canvas camera={{ position: [0, 0, 1] }}>
@@ -50,5 +54,9 @@ const StyledStarsCanvas = () => {
     );
 };
 
+<<<<<<< HEAD
 export default StyledStarsCanvas;
+=======
+// export default StyledStarsCanvas;
+>>>>>>> 7acb598f8837c015c5de712a890093c835303c7d
 

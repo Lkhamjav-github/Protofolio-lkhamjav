@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import { Inter } from 'next/font/google'
 import { Header } from '../components/Header'
 import { Steph } from '../components/Steph'
@@ -12,9 +12,17 @@ import { useRef } from 'react'
 import Head from 'next/head'
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
+<<<<<<< HEAD
 import StyledStarsCanvas from '@/components/Stars'
 import Arrow from '@/components/Arrow'
 // import { Headermobile } from '@/components/Headermobile' 
+=======
+import { StyledStarsCanvas } from '@/components/Stars'
+import { Arrow } from '@/components/Arrow'
+
+// import { Stopwatch } from '@/components/Stopwatch'
+// import { Headermobile } from '@/components/Headermobile'
+>>>>>>> 7acb598f8837c015c5de712a890093c835303c7d
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -48,17 +56,29 @@ export default function Home() {
       <Header onDownloadPdf={downloadPdf} />
       {/* <Headermobile /> */}
       <div className='relative'>
+<<<<<<< HEAD
         <Arrow />
         <Steph />
         <About />
         <Arrow />
+=======
+        <StyledStarsCanvas />
+        <Arrow />
+        <Steph />
+        <Arrow />
+        <About />
+>>>>>>> 7acb598f8837c015c5de712a890093c835303c7d
         <Skills />
         <Experience />
         <Arrow />
         <Work />
         <ContactMe />
         <Footer />
+<<<<<<< HEAD
         <StyledStarsCanvas />
+=======
+
+>>>>>>> 7acb598f8837c015c5de712a890093c835303c7d
       </div>
     </>
   )
