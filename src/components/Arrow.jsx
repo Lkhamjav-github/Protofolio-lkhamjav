@@ -1,13 +1,13 @@
 import React from 'react';
-import { Div } from './HeroBgAnimationStyle';
+// import { Div } from './Style';
 import styled from 'styled-components';
 
 
-export const Div = styled.div`
-    width:600px;
-    height: 500px;
+const Div = styled.div`
+    width:100%;
+    height: auto;
+    position:absolute;
 `
-
 const Arrow = () => (
     <Div>
         <svg
