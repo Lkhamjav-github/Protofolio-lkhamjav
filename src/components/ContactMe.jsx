@@ -22,11 +22,11 @@ export const ContactMe = () => {
 
     console.log("copy", copy);
     return (
-        <div className='bg-white dark:bg-black flex lg:flex-col lg:py-24 lg:px-20 '>
+        <div className='bg-white dark:bg-[#111827] flex lg:flex-col lg:py-24 lg:px-20 '>
             <div className='flex flex-col justfy-center items-center'>
                 <div className='flex flex-col items-center'>
-                    <Button text="Get in touch" />
-                    <h2 className='lg:w-9/12 lg:text-xl  lg:font-normal text-gray-600 dark:text-white lg:flex lg:pt-4 lg:pb-12'>What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</h2>
+                    <Button text="Холбоо барих" />
+                    <h2 className='lg:w-9/12 lg:text-xl text-center lg:font-normal text-gray-600 dark:text-white lg:flex lg:pt-4 lg:pb-12'>Хэрэв та хөгжүүлэгч хайж байгаа, асуух зүйл байгаа эсвэл зүгээр л холбогдохыг хүсч байвал надтай холбогдоорой. 😊😊😊</h2>
                 </div>
                 <div className='flex items-center gap-3 lg:gap-5 '>
                     <img className='w-4 h-4 lg:w-8 lg:h-8' src="./message.svg" alt="icon" />
@@ -45,7 +45,7 @@ export const ContactMe = () => {
 
                 </div>
                 <p className='lg:pb-2 lg:font-normal text-gray-600 dark:text-white lg:text-base'>
-                    You may also find me on these platforms!
+                    Та намайг эдгээр платформ дээрээс олж болно!
                 </p>
                 <div className='flex gap-1'>
                     <img className='pr-2' src="./github.svg" alt="icon" />
