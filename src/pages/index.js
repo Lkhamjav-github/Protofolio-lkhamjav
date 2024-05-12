@@ -58,15 +58,15 @@ export default function Home() {
       <Header scrollToWork={scrollToWork} onDownloadPdf={downloadPdf} scrollToSkills={scrollToSkills} scrollToContact={scrollToContact} />
       {/* <Headermobile /> */}
       <div className='relative'>
-        {/* <Arrow /> */}
+        <Arrow />
         <Steph />
         {/* <About /> */}
-        {/* <Arrow /> */}
+        <Arrow />
         <Skills />
         {/* <Experience /> */}
-        {/* <Arrow /> */}
+        <Arrow />
         <Work />
-        {/* <StyledStarsCanvas /> */}
+        <StyledStarsCanvas />
         <ContactMe />
 
         <Footer />
