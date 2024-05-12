@@ -8,6 +8,7 @@ const StyledCanvasWrapper = styled.div`
   height: auto;
   position: absolute;
   inset: 0;
+  z-index:1;
 `;
 
 // Define defaultGen as a function that generates random numbers between 0 and 1

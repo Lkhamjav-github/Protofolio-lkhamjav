@@ -34,6 +34,16 @@ export default function Home() {
       doc.save("Lkhamjav.pdf");
     });
   };
+  const scrollToWork = () => {
+    document.getElementById('work').scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToSkills = () => {
+    document.getElementById('skills').scrollIntoView({ behavior: 'smooth' });
+  };
+  const scrollToContact = () => {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <>
@@ -45,18 +55,18 @@ export default function Home() {
           key="desc"
         />
       </Head>
-      <Header onDownloadPdf={downloadPdf} />
+      <Header scrollToWork={scrollToWork} onDownloadPdf={downloadPdf} scrollToSkills={scrollToSkills} scrollToContact={scrollToContact} />
       {/* <Headermobile /> */}
       <div className='relative'>
-        <Arrow />
+        {/* <Arrow /> */}
         <Steph />
         {/* <About /> */}
-        <Arrow />
+        {/* <Arrow /> */}
         <Skills />
         {/* <Experience /> */}
-        <Arrow />
+        {/* <Arrow /> */}
         <Work />
-        <StyledStarsCanvas />
+        {/* <StyledStarsCanvas /> */}
         <ContactMe />
 
         <Footer />

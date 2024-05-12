@@ -7,6 +7,7 @@ const Div = styled.div`
     width:100%;
     height: auto;
     position:absolute;
+    z-index:1;
 `
 const Arrow = () => (
     <Div>
