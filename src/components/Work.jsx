@@ -12,7 +12,7 @@ export const Work = () => {
                 </div>
                 <WorkRow inner='A platform for travelers with classic travel, route options, and categories, which aims to promote Mongolia to foreigners.' row="flex-row" xl="l" top='rounded-l-xl' bottom='rounded-r-xl' img="./travel.png" projectName="Travel To Mongolia" url="https://travelcon-eta.vercel.app" />
                 <WorkRow inner='With proper organization and a neat look to users, we aim to enable readers to easily access relevant news articles and updates on various topics.' row="flex-row-reverse" top='rounded-r-xl' bottom='rounded-l-xl' xl="r" img="./blogweb.png" projectName="BlogWeb" url="https://blogweb-eight.vercel.app/" />
-                <WorkRow inner='It has a simple design that can be used by any user. Self-employed people can sell their products using stores that do not have their own website. Trading platform' row="flex-row" xl="l" top='rounded-l-xl' bottom='rounded-r-xl' img="./buyme.png" projectName="E-commerce" url='https://buymeuserfe.vercel.app/signin ' />
+                <WorkRow inner='It has a simple design that can be used by any user. Self-employed people can sell their products using stores that do not have their own website. Trading platform' row="flex-row" xl="l" top='rounded-l-xl' bottom='rounded-r-xl' img="./buyme1.png" projectName="E-commerce" url='https://buymeuserfe.vercel.app/signin ' />
             </div>
         </div>
     )

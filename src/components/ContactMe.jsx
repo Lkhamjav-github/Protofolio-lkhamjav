@@ -31,7 +31,7 @@ export const ContactMe = () => {
                 <div className='flex items-center gap-3 lg:gap-5 '>
                     <img className='w-4 h-4 lg:w-8 lg:h-8' src="./message.svg" alt="icon" />
                     <h1 className='text-lg text-gray-900 dark:text-white lg:text-4xl lg:font-semibold '>the.lkhamjav@gmail.com</h1>
-                    <div className="tooltip" data-tip={`${copy ? 'copied' : 'copy'}`}>
+                    <div className="tooltip relative z-10" data-tip={`${copy ? 'copied' : 'copy'}`}>
                         <svg onClick={handleCopy} width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M32.6665 16.6665H19.3332C17.8604 16.6665 16.6665 17.8604 16.6665 19.3332V32.6665C16.6665 34.1393 17.8604 35.3332 19.3332 35.3332H32.6665C34.1393 35.3332 35.3332 34.1393 35.3332 32.6665V19.3332C35.3332 17.8604 34.1393 16.6665 32.6665 16.6665Z" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M11.3332 27.3332C9.8665 27.3332 8.6665 26.1332 8.6665 24.6665V11.3332C8.6665 9.8665 9.8665 8.6665 11.3332 8.6665H24.6665C26.1332 8.6665 27.3332 9.8665 27.3332 11.3332" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -42,7 +42,7 @@ export const ContactMe = () => {
                 <div className='flex items-center gap-3 lg:gap-5  lg:pt-4 lg:pb-12'>
                     <img className=' w-4 h-4 lg:w-8 lg:h-8' src="./phone.svg" alt="icon" />
                     <h1 className=' text-lg text-gray-900 dark:text-white lg:text-4xl lg:font-semibold '>+976 88766764</h1>
-                    <div className="tooltip" data-tip={`${scopy ? 'copied' : 'copy'}`}>
+                    <div className="tooltip relative z-10" data-tip={`${scopy ? 'copied' : 'copy'}`}>
                         <svg onClick={secondhandleCopy} width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M32.6665 16.6665H19.3332C17.8604 16.6665 16.6665 17.8604 16.6665 19.3332V32.6665C16.6665 34.1393 17.8604 35.3332 19.3332 35.3332H32.6665C34.1393 35.3332 35.3332 34.1393 35.3332 32.6665V19.3332C35.3332 17.8604 34.1393 16.6665 32.6665 16.6665Z" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M11.3332 27.3332C9.8665 27.3332 8.6665 26.1332 8.6665 24.6665V11.3332C8.6665 9.8665 9.8665 8.6665 11.3332 8.6665H24.6665C26.1332 8.6665 27.3332 9.8665 27.3332 11.3332" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
