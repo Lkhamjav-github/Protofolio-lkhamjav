@@ -14,9 +14,7 @@ import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import StyledStarsCanvas from '@/components/Stars'
 import Arrow from '@/components/Arrow'
-// import { Headermobile } from '@/components/Headermobile' 
-
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const pageRef = useRef();
@@ -30,10 +28,10 @@ export default function Home() {
       const componentWidth = doc.internal.pageSize.getWidth();
       const componentHeight = doc.internal.pageSize.getHeight();
       doc.addImage(imgData, "PNG", 0, 0, componentWidth, componentHeight);
-
       doc.save("Lkhamjav.pdf");
     });
   };
+
   const scrollToWork = () => {
     document.getElementById('work').scrollIntoView({ behavior: 'smooth' });
   };
@@ -54,10 +52,10 @@ export default function Home() {
           content="lkhamjav"
           key="desc"
         />
-        <meta property="og:image" content="lkamjav33.png" />
+        <meta property="og:image" content="lkhamjav33.png" />
       </Head>
       <Header scrollToWork={scrollToWork} onDownloadPdf={downloadPdf} scrollToSkills={scrollToSkills} scrollToContact={scrollToContact} />
-      {/* <Headermobile /> */}
+
       <div className='relative'>
         <Arrow />
         <Steph />
