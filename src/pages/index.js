@@ -54,6 +54,7 @@ export default function Home() {
           content="lkhamjav"
           key="desc"
         />
+        <meta property="og:image" content="lkamjav33.png" />
       </Head>
       <Header scrollToWork={scrollToWork} onDownloadPdf={downloadPdf} scrollToSkills={scrollToSkills} scrollToContact={scrollToContact} />
       {/* <Headermobile /> */}
