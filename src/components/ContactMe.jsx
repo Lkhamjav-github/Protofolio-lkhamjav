@@ -19,8 +19,6 @@ export const ContactMe = () => {
             setCopy(false)
         }, 2000);
     }
-
-    console.log("copy", copy);
     return (
         <div id='contact' className='bg-white dark:bg-[#111827] flex lg:flex-col lg:py-24 lg:px-20 '>
             <div className='flex flex-col justfy-center items-center'>

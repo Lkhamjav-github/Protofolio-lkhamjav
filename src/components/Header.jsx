@@ -1,14 +1,17 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
+export const Header = ({ scrollToWork, scrollToContact, scrollToSkills }) => {
 
-export const Header = ({ onDownloadPdf, scrollToWork, scrollToContact, scrollToSkills }) => {
     const [theme, setTheme] = useState('dark');
     const [burger, setBurger] = useState('menu');
-
 
     useEffect(() => {
         document.body.className = theme;
     }, [theme]);
 
+
+    const downloadCv = () => {
+
+    }
     const toggleTheme = () => {
         setTheme(prevTheme => prevTheme === 'dark' ? 'light' : 'dark');
     };
@@ -16,7 +19,6 @@ export const Header = ({ onDownloadPdf, scrollToWork, scrollToContact, scrollToS
     const toggleBurger = () => {
         setBurger(prevBurger => prevBurger === 'menu' ? 'xmark' : 'menu');
     };
-
 
     return (
         <div>
@@ -31,6 +33,7 @@ export const Header = ({ onDownloadPdf, scrollToWork, scrollToContact, scrollToS
                                     <a href='#' onClick={scrollToSkills}>Skills</a>
                                     <a href='#' onClick={scrollToWork}>Work</a>
                                     <a href='#' onClick={scrollToContact}>Contact</a>
+
                                     <div className='flex justify-start items-center'>
                                         <p>Switch Theme</p>
                                         <div>
@@ -38,7 +41,7 @@ export const Header = ({ onDownloadPdf, scrollToWork, scrollToContact, scrollToS
                                             <img src="./moon.svg" alt="moon" className='moon hidden' />
                                         </div>
                                     </div>
-                                    <button onClick={onDownloadPdf} className="max-w-72 rounded-xl bg-gray-900 text-gray-50 text-base font-medium leading-6 py-1 px-4 ">
+                                    <button className="max-w-72 rounded-xl bg-gray-900 text-gray-50 text-base font-medium leading-6 py-1 px-4 ">
                                         Download CV
                                     </button>
                                 </nav>
@@ -51,7 +54,7 @@ export const Header = ({ onDownloadPdf, scrollToWork, scrollToContact, scrollToS
                         <a href='#' onClick={scrollToContact}>Contact</a>
                         <img onClick={toggleTheme} src={`${theme === 'light' ? './sun.svg' : './moon.svg'}`} alt='sun' className='sun' id='sun'></img>
                         <img src="./moon.svg" alt="moon" className='moon hidden' />
-                        <button onClick={onDownloadPdf} className="lg:rounded-xl bg-gray-900 text-gray-50 dark:bg-[#F9FAFB] dark:text-[#111827] text-base font-medium leading-6 py-1 px-4 ">
+                        <button onClick={downloadCv} className="lg:rounded-xl bg-gray-900 text-gray-50 dark:bg-[#F9FAFB] dark:text-[#111827] text-base font-medium leading-6 py-1 px-4 ">
                             Download CV
                         </button>
                     </nav>
