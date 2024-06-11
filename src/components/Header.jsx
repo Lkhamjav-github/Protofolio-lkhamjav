@@ -19,15 +19,18 @@ export const Header = ({ scrollToWork, scrollToContact, scrollToSkills }) => {
     const toggleBurger = () => {
         setBurger(prevBurger => prevBurger === 'menu' ? 'xmark' : 'menu');
     };
-
+console.log(burger)
     return (
         <div>
             <header className="bg-white dark:bg-black flex justify-center items-center">
                 <div className='flex lg:px-20 py-4 justify-between w-3/4'>
                     <h1 className="lg:text-3xl font-bold leading-9 tracking-wide dark:text-white relative">
                         {"<SS />"}
-                        <div className={`${burger === 'menu' ? 'hidden' : 'flex'} absolute justify-center bg-white dark:bg-black items-start`}>
-                            <div className='flex items-start justify-center dark:bg-black h-[820px] w-[300px] '>
+                         <nav className='lg:hidden '>
+                        <img className='w-6 h-6' onClick={toggleBurger} src={`${burger === 'menu' ? './menu.svg' : './xmark.png'}`} alt="sunmoon" />
+                    </nav>
+                        <div className={`${burger === 'menu' ? 'hidden' : 'flex'} relative justify-center bg-white dark:bg-black items-start`}>
+                            <div className='flex items-start justify-center dark:bg-black h-[220px] w-[300px] '>
                                 <hr className='bg-[#e5e7eb] dark:bg-[#374151]' />
                                 <nav className="flex flex-col gap-6 text-gray-900 dark:text-white text-basefont-medium leading-6 w-3/4 ">
                                     <a href='#' onClick={scrollToSkills}>Skills</a>
@@ -58,9 +61,7 @@ export const Header = ({ scrollToWork, scrollToContact, scrollToSkills }) => {
                             Download CV
                         </button>
                     </nav>
-                    <nav className='lg:hidden '>
-                        <img onClick={toggleBurger} src={`${burger === 'menu' ? './menu.svg' : './xmark.png'}`} alt="sunmoon" />
-                    </nav>
+                   
                 </div>
             </header>
         </div>
